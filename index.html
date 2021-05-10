@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Market</title>
+    <style>
+        .container
+        {
+            position: absolute;
+            top: 0%;
+            width: 100%;
+            height: 70%;
+            border: 2px solid black;
+        }
+        .active, .container2:hover
+        {
+            border: 2px solid gray ;
+            padding: 20px;
+            border-radius: 20px ;
+            box-shadow: 5px 5px gray;
+        }
+        .container2
+        {
+            position: absolute;
+            top:75%;
+            left: 0%;
+            width:20% ;
+            height:30% ;
+            border: 2px solid black;
+            padding:20px ;
+            border-radius: 20px;
+        }
+        .active, .container3:hover
+        {
+            border: 2px solid gray;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow:5px 5px gray;
+        }
+        .container3
+        {
+            position: absolute;
+            top:75%;
+            left: 25%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }
+        .active, .container4:hover
+        {
+            border: 2px solid gray;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow:5px 5px gray;
+        }
+        .container4
+        {
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        .active,.container5:hover  
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        }
+        .container5
+        {
+            position: absolute;
+            top: 75%;
+            left: 75%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container6:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container6
+        {
+            position: absolute;
+            top: 115%;
+            left: 0%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        .active,.container7:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container7
+        {
+            position: absolute;
+            top: 115%;
+            left: 25%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        .active,.container8:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container8
+        {
+            position: absolute;
+            top: 115%;
+            left: 50%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        cc.active,.container9:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container9
+        {
+            position: absolute;
+            top: 115%;
+            left: 75%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        .active,.container10:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container10
+        {
+            position: absolute;
+            top: 155%;
+            left: 0%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        }  
+        .active,.container11:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container11
+        {
+            position: absolute;
+            top: 155%;
+            left: 25%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container12:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container12
+        {
+            position: absolute;
+            top: 155%;
+            left: 50%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container13:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container13
+        {
+            position: absolute;
+            top: 155%;
+            left: 75%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container14:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container14
+        {
+            position: absolute;
+            top: 195%;
+            left: 0%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container15:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container15
+        {
+            position: absolute;
+            top: 195%;
+            left: 25%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container16:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container16
+        {
+            position: absolute;
+            top: 195%;
+            left: 50%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .active,.container17:hover
+        {
+            border: 2px solid gray;
+            border-radius: 20px;
+            padding: 20px;
+            box-shadow: 5px 5px gray;
+        } 
+        .container17
+        {
+            position: absolute;
+            top: 195%;
+            left: 75%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 20px;
+        } 
+        .heading
+        {
+            position: absolute;
+            top: 0%;
+            width: 20%;
+            height: 30%;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container"><img src="1.jpg" style="width: 100%; height:100%; "><div class="heading"><img src="Logo edited.jpg" style="width: 100%; height: 100%;"></div></div   >
+    <div class="container2"><a href="atta.html"> <img src="atta.png" style="width: 100%; height:100%; "></a></div>
+    <div class="container3"><a href="chal.html"><img src="2.jpg" style="width: 100%; height:100%; "></a></div>
+    <div class="container4"><a href="FandV.html"><img src="17.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container5"><a href="SandS.html"><img src="4.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container6"><a href="oil.html"><img src="5.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container7"><a href="cookies.html"><img src="6.png" style="width: 100%; height: 100%;"></a></div>
+    <div class="container8"><a href="teaandcofee.html"><img src="7.jpeg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container9"><a href="chocolate.html"><img src="8.png" style="width: 100%; height: 100%;"></a></div>
+    <div class="container10"><a href="nonveg.html"><img src="beef.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container11"><a href="jam.html"><img src="10.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container12"><a href="maggy.html"><img src="11.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container13"><a href="masala.html"><img src="12.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container14"><a href="cookoil.html"><img src="13.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container15"><a href="juice.html"><img src="14.jpg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container16"><a href="snacks.html"><img src="15.jpeg" style="width: 100%; height: 100%;"></a></div>
+    <div class="container17"><a href="milkproducts.html"><img src="16.png" style="width: 100%; height: 100%;"></a></div>
+
+
+</body>
+</html>
